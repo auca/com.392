@@ -63,6 +63,12 @@ Sample
 
 The task will be described in class.
 
+### Compilation
+
+To compile you program on Linux run the following
+
+    LDFLAGS=-pthread make <Source File Name>
+
 ### Documentation
 
     man pthreads
