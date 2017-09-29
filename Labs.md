@@ -61,13 +61,20 @@ Sample
 
 ### Task #6, "Producer and Consumers"
 
-The task will be described in class.
+Create a number of consumer threads that try to remove some work by
+decrementing a global shared counter by one. Create a second producers
+thread that tries to add multiple work items by incrementing the
+counter by some fixed value greater than one.
 
 ### Compilation
 
 To compile you program on Linux run the following
 
     LDFLAGS=-pthread make <Source File Name>
+    
+To compile you program on Mac OS run the following
+
+    make <Source File Name>
 
 ### Documentation
 
@@ -81,4 +88,3 @@ To compile you program on Linux run the following
 
 * C Programming: A Modern Approach, 2nd Edition by K. N. King
 * Programming with POSIX Threads, David R. Butenhof
-
