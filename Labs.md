@@ -66,6 +66,31 @@ decrementing a global shared counter by one. Create a second producers
 thread that tries to add multiple work items by incrementing the
 counter by some fixed value greater than one.
 
+Print the output for every major operation from the producer thread
+and from the consumer threads.
+
+    Specify the <number of threads to start>
+    2
+    Producer: locking the mutex
+    Producer: incrementing the value to 4 and signaling
+    Consumer #1: locking the mutex
+    Consumer #2: locking the mutex
+    Producer: unlocking the mutex
+    Consumer #1: decrementing the value to 3
+    Consumer #1: unlocking the mutex
+    Consumer #1: locking the mutex
+    Consumer #2: decrementing the value to 2
+    Consumer #2: unlocking the mutex
+    Consumer #2: locking the mutex
+    Consumer #1: decrementing the value to 1
+    Consumer #1: unlocking the mutex
+    Consumer #1: locking the mutex
+    Consumer #2: decrementing the value to 0
+    Consumer #2: unlocking the mutex
+    Consumer #2: locking the mutex
+    Consumer #1: the counter is equal to zero. Waiting for signal
+    Consumer #2: the counter is equal to zero. Waiting for signal
+
 ### Compilation
 
 To compile you program on Linux run the following
