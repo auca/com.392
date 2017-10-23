@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-#define NUM_OF_READER 4
+#define NUM_OF_READERS 4
 #define NUM_OF_WRITERS 1
 
 static int Resource_Counter = 0;
@@ -38,7 +38,7 @@ static void *reader_start(void *arg) {
                 &Resource_Counter_Mutex
             );
         }
-        printf("%d%n", Resource_Counter);
+        printf("%d\n", Resource_Counter);
         pthread_mutex_unlock(&Resource_Counter_Mutex);
 
         // Do work on that data
@@ -64,9 +64,9 @@ int main(int argc, char **argv) {
 
     for (size_t i = 0; i < NUM_OF_READERS; ++i) {
         if (0 != pthread_create(
-                &readers_threads[i],
+                &reader_threads[i],
                 NULL,
-                readers_start,
+                reader_start,
                 NULL
             )) {
             fputs("Failed to create a readers thread.\n", stderr);
@@ -80,7 +80,7 @@ int main(int argc, char **argv) {
     }
 
     for (size_t i = 0; i < NUM_OF_READERS; ++i) {
-        if (0 != pthread_join(readers_threads[i], NULL)) {
+        if (0 != pthread_join(reader_threads[i], NULL)) {
             fputs("Failed to wait for the thread to finish.\n", stderr);
         }
     } // will wait forever
