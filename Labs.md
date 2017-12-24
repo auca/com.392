@@ -19,8 +19,7 @@ Sample output
 
 ### Task #2, "N Threads"
 
-The program should read a number `n` from standard input and create `n` number
-of threads that print a greeting message to standard output.
+The program should read a number `n` from standard input and create `n` number of threads that print a greeting message to standard output.
 
 Sample output
 
@@ -30,7 +29,7 @@ Sample output
 
 ### Task #3, "Thread Argument"
 
-The program shouild read a number `n` from standard input, create `n` number of
+The program should read a number `n` from standard input, create `n` number of
 threads that print a greeting followed by the thread's number.
 
     Greeting, from thread #1
@@ -62,7 +61,7 @@ Sample
 ### Task #6, "Producer and Consumers"
 
 Create a number of consumer threads that try to remove some work by
-decrementing a global shared counter by one. Create a second producers
+decrementing a globally shared counter by one. Create a second producers
 thread that tries to add multiple work items by incrementing the
 counter by some fixed value greater than one.
 
@@ -91,25 +90,56 @@ and from the consumer threads.
     Consumer #1: the counter is equal to zero. Waiting for signal
     Consumer #2: the counter is equal to zero. Waiting for signal
 
+### Task #7, "Readers–writer lock"
+
+Given a sample lab, try to solve the multiple-readers-and-single-writer problem.
+
+### Task #8, "Hello from MPI"
+
+Given _N_ processes, send a "hello" message from processes with ranks _1...N_ to the process with rank _0_. 
+
+### Task #9, "Ping Pong"
+
+Send a fixed number of pings from one process to another. The number of processes should be two. The ping message should be an integer counter. The counter should be incremented by the sender before processing. The receiving process should print the received message. After that, the two processes should swap roles.
+
+### Task #10, "Ring"
+
+Pass some integer value (e.g., 42) around _N_ processes starting from the root process with rank 0. Every process should print
+a message upon receiving the data token.
+
+### Task #11, "Broadcast"
+
+Read the documentation about the `MPI_Bcast` call. Try to implement a simple version of the call with the functions `MPI_Send` and `MPI_Recv`.
+
+Benchmark your implementation with the real call to `MPI_Bcast`. Use the `MPI_Wtime` to measure function execution time. Use the `MPI_Barrier` to synchronize the process between calls.
+
+### Task #12, "Parallel Average"
+
+Calculate the average of a list of random numbers. Use `MPI_Scatter` and `MPI_Gather` in the first implementation. Use `MPI_Scatter` and `MPI_Reduce` in the second implementation. Benchmark two solutions with different list sizes.
+
 ### Compilation
 
-To compile you program on Linux run the following
+To compile your program on Linux run the following
 
     LDFLAGS=-pthread make <Source File Name>
     
-To compile you program on Mac OS run the following
+To compile your program on Mac OS run the following
 
     make <Source File Name>
 
 ### Documentation
 
     man pthreads
+    MPICH man pages
 
 ### Links
 
 * [POSIX Threads Programming Guide](https://computing.llnl.gov/tutorials/pthreads)
+* [MPICH](http://www.mpich.org/static/docs/latest/www)
+* [MPI Tutorial](http://mpitutorial.com/tutorials)
 
 ### Books
 
 * C Programming: A Modern Approach, 2nd Edition by K. N. King
 * Programming with POSIX Threads, David R. Butenhof
+* An Introduction to Parallel Programming by Peter Pacheco
