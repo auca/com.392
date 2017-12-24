@@ -3,17 +3,16 @@
 1. [Introduction](https://docs.google.com/a/auca.kg/presentation/d/19rVC9sVYECBggRl_3cu4b08gevXaNlpX3Nrp2AJUc28)
 2. [Parallel Hardware](https://docs.google.com/presentation/d/1Z2E3t0tI0w-mU_7m5U_C_-d0loVVaLbvT2n0Tvvogyw)
 
-
 ### Videos
 
 #### GPGU
 
-[GPUs to Mars: Full-Scale Simulation of SpaceX's Mars Rocket Engine](https://www.youtube.com/watch?v=vYA0f6R5KAI)
+[GPUs to Mars: Full-Scale Simulation of SpaceX's Mars Rocket Engine](https://youtu.be/vYA0f6R5KAI)
 
 #### Chip Fabrication
 
- * [From Sand to Silicon: the Making of a Chip](https://www.youtube.com/watch?v=Q5paWn7bFg4)
- * [Inside the Fab](https://www.youtube.com/watch?v=-KTKg0Y1snQ)
+ * [From Sand to Silicon: the Making of a Chip](https://youtu.be/Q5paWn7bFg4)
+ * [Inside the Fab](https://youtu.be/-KTKg0Y1snQ)
 
 #### Computer Architecture
 

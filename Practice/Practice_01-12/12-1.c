@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
 #include <mpi.h>
 
 static double *generate_random_numbers(size_t count)
@@ -108,3 +109,4 @@ int main(int argc, char **argv) {
 
     return 0;
 }
+

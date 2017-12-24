@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
 #include <mpi.h>
 
 static void my_bcast(void *data, int count, MPI_Datatype datatype, int root, MPI_Comm communicator) {
