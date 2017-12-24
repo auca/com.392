@@ -1,11 +1,11 @@
 Projects
 ========
 
-## pthreads
+## Pthreads
 
 <https://github.com/toksaitov/ips-project>
 
-## mpi
+## MPI
 
 <https://github.com/toksaitov/nbody-project>
 
