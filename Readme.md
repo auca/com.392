@@ -1,4 +1,4 @@
-# Parallel and Distributed Programming (COM-451)
+# System Programming (or Parallel and Distributed Programming) (COM-392-451)
 
 ## Syllabus
 
