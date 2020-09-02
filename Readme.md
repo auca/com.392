@@ -5,24 +5,24 @@
 General course information, time, room and lab numbers, rules, grading, and
 books
 
-* <https://github.com/auca/com.451/blob/master/Syllabus/COM_451_Fall_2017_Syllabus.pdf>
+* <https://github.com/auca/com.392/blob/master/Syllabus/COM_392_451_Fall_2020_Syllabus.pdf>
 
-## Class Discussions
+## Recordings
 
-For announcements, student questions and student answers to get the
-participation grade
+View previous class recordings
 
-* <https://piazza.com/class/j6tftykciix26>
+### Lectures
 
-## Class Chat
+#### Wednesday 10:50
 
-For general discussions between students and the course instructor
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6c1NMGonApcjDhFB5rBtMwe>
 
-* <https://auca-sfw.slack.com/messages/com-451-fall-2017>
+### Labs
 
-## Screencast
+#### Wednesday 12:45
 
-View the screen of the instructor's machine
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6dKEOO2IJ03hD03_s-9oD5n>
 
-* <https://hangouts.google.com/hangouts/_/auca.kg/com-451>
+#### Wednesday 14:10
 
+* <https://www.youtube.com/playlist?list=PLHcEzCb_lW6drP46AtPd66wWXKir_0Baf>
