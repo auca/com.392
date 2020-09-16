@@ -70,14 +70,14 @@ Compare the results.
 
 ### Documentation
 
-man ls
-man mkdir
-man touch
-man mv
-man cp
-man rm
-man pwd
-man perf-stat
+* `man ls`
+* `man mkdir`
+* `man touch`
+* `man mv`
+* `man cp`
+* `man rm`
+* `man pwd`
+* `man perf-stat`
 
 ### Links
 
