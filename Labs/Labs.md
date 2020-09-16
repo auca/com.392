@@ -15,10 +15,56 @@ dependency hazards that limit a superscalar CPU's parallelism.
 
 Refer to the `data.c` file in the `Source` directory.
 
+Profile the first approach to sum numbers.
+
+```bash
+perf stat -e instructions,cycles,cycle_activity.stalls_total ./data 1
+```
+
+Profile the second approach to sum numbers.
+
+```bash
+perf stat -e instructions,cycles,cycle_activity.stalls_total ./data 2
+```
+
+In both cases, the `perf` program will display instruction and cycle count,
+and the number of pipeline stalls. Compare the results. Try to explain them.
+
 ## Lab #2, Control Hazards
 
 In the second lab, you will get an example program to illustrate the control
 dependencies that limit a pipelined CPU's parallelism.
+
+Refer to the `branch.c` file in the `Source` directory.
+
+First, generate the the input data by running the program with the `-g` flag.
+
+```bash
+./branch -g
+```
+
+Next, profile it with `perf`.
+
+```bash
+perf stat -e instructions,cycles,branch-misses,cycle_activity.stalls_total ./branch
+```
+
+It will display instruction and cycle count, the number of branch mispredictions, and
+the number of pipeline stalls.
+
+Next, generate the sorted data.
+
+```bash
+./branch -g -s
+```
+
+Finally, run the profiler with the program again.
+
+```bash
+perf stat -e instructions,cycles,branch-misses,cycle_activity.stalls_total ./branch
+```
+
+Compare the results.
 
 ...
 
@@ -31,6 +77,7 @@ man mv
 man cp
 man rm
 man pwd
+man perf-stat
 
 ### Links
 
@@ -52,4 +99,3 @@ Stevens, Stephen A. Rago_
 Ritchie_
 
 * _The Unix Programming Environment by Brian W. Kernighan, Rob Pike_
-
