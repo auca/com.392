@@ -66,7 +66,47 @@ perf stat -e instructions,cycles,branch-misses,cycle_activity.stalls_total ./bra
 
 Compare the results.
 
-...
+During labs students will have to practice with common shared- and
+distributed-memory API for parallel programming.
+
+You can use the AUCA server for this work through SSH at 'auca.space'. The login
+has the format `<last name>_<first letter of the first name>`.
+
+## Lab #3, Pthreads
+
+### Task #1, hello, world
+
+The program should create one thread and print a "hello, world" message from it.
+
+Sample output
+
+```
+hello, world
+```
+
+### Task #2, N Threads
+
+The program should read a number `n` from standard input and create `n` number
+of threads that print a greeting message to standard output.
+
+Sample output
+
+```
+Hello
+Hello
+Hello
+```
+
+### Task #3, Thread Argument
+
+The program should read a number `n` from standard input, create `n` number of
+threads that print a greeting followed by the thread's number.
+
+```
+Greeting, from thread #1
+Greeting, from thread #3
+Greeting, from thread #2
+```
 
 ### Documentation
 
