@@ -123,6 +123,7 @@ Greeting, from thread #2
 
 * [Beej's Guide to C Programming](http://beej.us/guide/bgc)
 * [Unix Environment](https://drive.google.com/file/d/0B85z_dQxOMgLNDN3QTFrSmYxZm8/view)
+* [POSIX Threads Programming Guide](https://computing.llnl.gov/tutorials/pthreads)
 
 ### Books
 
