@@ -84,20 +84,7 @@ Sample output
 hello, world
 ```
 
-### Task #2, N Threads
-
-The program should read a number `n` from standard input and create `n` number
-of threads that print a greeting message to standard output.
-
-Sample output
-
-```
-Hello
-Hello
-Hello
-```
-
-### Task #3, Thread Argument
+### Task #2, Thread Arguments
 
 The program should read a number `n` from standard input, create `n` number of
 threads that print a greeting followed by the thread's number.
@@ -108,7 +95,7 @@ Greeting, from thread #3
 Greeting, from thread #2
 ```
 
-### Task #4, Race
+### Task #3, Race
 
 The program should try to calculate a total sum for two sets of numbers. For
 every set it should use a separate thread.
@@ -119,7 +106,7 @@ Sample
 The total sum is 42
 ```
 
-### Task #5, Producer and Consumers
+### Task #4, Producer and Consumers
 
 Create a number of consumer threads that try to remove some work by
 decrementing a globally shared counter by one. Create a second producers
