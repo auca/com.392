@@ -108,22 +108,7 @@ Greeting, from thread #3
 Greeting, from thread #2
 ```
 
-### Task #4, Alarm
-
-Scan continuously for input for a number of seconds. Set up a timer to print an
-alarm message in the specified number of seconds. Use threads and the `sleep`
-function from `unistd.h` header to create each timer.
-
-Sample
-
-```
-10
-Alarm! 10 seconds have passed
-2
-Alarm! 2 seconds have passed
-```
-
-### Task #5, Race
+### Task #4, Race
 
 The program should try to calculate a total sum for two sets of numbers. For
 every set it should use a separate thread.
@@ -134,7 +119,7 @@ Sample
 The total sum is 42
 ```
 
-### Task #6, Producer and Consumers
+### Task #5, Producer and Consumers
 
 Create a number of consumer threads that try to remove some work by
 decrementing a globally shared counter by one. Create a second producers
