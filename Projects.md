@@ -7,3 +7,7 @@
 ## Project 2
 
 * <https://github.com/toksaitov/nbody-parallel-project>
+
+## Bonus Project
+
+* <https://github.com/toksaitov/raytracing-project>
