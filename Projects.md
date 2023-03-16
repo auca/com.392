@@ -10,4 +10,4 @@
 
 ## Project 3
 
-* <https://github.com/toksaitov/server-project.git>
+* <https://github.com/toksaitov/server-project>
