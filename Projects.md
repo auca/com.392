@@ -7,3 +7,7 @@
 ## Project 2
 
 * <https://github.com/toksaitov/audio-processing-project>
+
+## Project 3
+
+* <https://github.com/toksaitov/server-project.git>
