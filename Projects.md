@@ -15,3 +15,7 @@
 ## Project 4
 
 * <https://github.com/toksaitov/nbody-project>
+
+## Project 5 (Bonus)
+
+* <https://github.com/toksaitov/raytracing-project>
