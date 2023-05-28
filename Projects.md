@@ -2,7 +2,7 @@
 
 ## Project 1
 
-* <https://github.com/toksaitov/code-optimization-project>
+* <https://github.com/toksaitov/maze-project>
 
 ## Project 2
 
