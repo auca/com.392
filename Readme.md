@@ -4,7 +4,7 @@
 
 General course information, time, rules, grading, and books
 
-* <https://github.com/auca/com.392/blob/master/Syllabus/COM_392_Spring_2024_Syllabus.pdf>
+* <https://github.com/auca/com.392/blob/master/Syllabus/AUCA_COM-392_Spring_2024_Syllabus.pdf>
 
 ## Recordings
 
