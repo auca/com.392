@@ -63,7 +63,10 @@ You must use your machine with an Nvidia GPU for CUDA tasks or ask the instructo
 1. [simple_thread.c](https://gist.github.com/toksaitov/c4fcdcd4ba181d8a27992bc49e733d3d)
 2. [thread_args.c](https://gist.github.com/toksaitov/47ce3c26267c6b71ebde01d4b4cadbd8)
 3. [mutex.c](https://gist.github.com/toksaitov/562bafcb7e927ef56af2e14347afa118)
-4. [cond_var.c](https://gist.github.com/toksaitov/759459765e164e9243c031167a8c7a3f)
+4. [spinlock.c](https://gist.github.com/toksaitov/c0c4055ca8fec61d7b4d9ca222a34abb)
+6. [barrier.c](https://gist.github.com/toksaitov/fd2a416a2ead84c4f69a110425356308)
+7. [semaphore.c](https://gist.github.com/toksaitov/0278a28feb4e9c04a3e7b83ee79a9019)
+8. [cond_var.c](https://gist.github.com/toksaitov/759459765e164e9243c031167a8c7a3f)
 
 ## MPI
 
